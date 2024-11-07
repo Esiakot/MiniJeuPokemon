@@ -1,0 +1,103 @@
+[
+  {
+    "nom": "Salamèche",
+    "type": "Feu",
+    "pv": 100,
+    "attaques": [
+      { "nom": "Flammèche", "type": "Feu", "degats": 10, "pa": 1 },
+      { "nom": "Griffe", "type": "Normal", "degats": 5, "pa": 1 },
+      { "nom": "Crocs Feu", "type": "Feu", "degats": 15, "pa": 2 },
+      {
+        "nom": "Rugissement",
+        "type": "Normal",
+        "degats": 0,
+        "soin": 10,
+        "pa": 2
+      }
+    ]
+  },
+  {
+    "nom": "Onix",
+    "type": "Roche",
+    "pv": 120,
+    "attaques": [
+      { "nom": "Jet de Pierre", "type": "Roche", "degats": 15, "pa": 2 },
+      { "nom": "Ecrasement", "type": "Normal", "degats": 10, "pa": 1 },
+      { "nom": "Bouclier", "type": "Roche", "degats": 0, "soin": 5, "pa": 1 },
+      { "nom": "Destruction", "type": "Roche", "degats": 20, "pa": 3 }
+    ]
+  },
+  {
+    "nom": "Carapuce",
+    "type": "Eau",
+    "pv": 100,
+    "attaques": [
+      { "nom": "Pistolet à O", "type": "Eau", "degats": 10, "pa": 1 },
+      { "nom": "Charge", "type": "Normal", "degats": 5, "pa": 1 },
+      { "nom": "Bulled'O", "type": "Eau", "degats": 15, "pa": 2 },
+      { "nom": "Soin", "type": "Eau", "degats": 0, "soin": 10, "pa": 2 }
+    ]
+  },
+  {
+    "nom": "Bulbizarre",
+    "type": "Plante",
+    "pv": 100,
+    "attaques": [
+      { "nom": "Fouet Lianes", "type": "Plante", "degats": 10, "pa": 1 },
+      { "nom": "Tranch'Herbe", "type": "Plante", "degats": 15, "pa": 2 },
+      {
+        "nom": "Synthesis",
+        "type": "Plante",
+        "degats": 0,
+        "soin": 10,
+        "pa": 2
+      },
+      { "nom": "Charge", "type": "Normal", "degats": 5, "pa": 1 }
+    ]
+  },
+  {
+    "nom": "Roucool",
+    "type": "Vol",
+    "pv": 90,
+    "attaques": [
+      { "nom": "Cru-Ailes", "type": "Vol", "degats": 10, "pa": 1 },
+      { "nom": "Vent Arrière", "type": "Vol", "degats": 15, "pa": 2 },
+      { "nom": "Picpic", "type": "Vol", "degats": 8, "pa": 1 },
+      { "nom": "Repos", "type": "Normal", "degats": 0, "soin": 10, "pa": 2 }
+    ]
+  },
+  {
+    "nom": "Evoli",
+    "type": "Normal",
+    "pv": 100,
+    "attaques": [
+      { "nom": "Morsure", "type": "Normal", "degats": 10, "pa": 1 },
+      { "nom": "Vive-Attaque", "type": "Normal", "degats": 8, "pa": 1 },
+      {
+        "nom": "Regard Touchant",
+        "type": "Normal",
+        "degats": 0,
+        "soin": 5,
+        "pa": 1
+      },
+      { "nom": "Coup d'Boule", "type": "Normal", "degats": 15, "pa": 2 }
+    ]
+  },
+  {
+    "nom": "Pikachu",
+    "type": "Electrique",
+    "pv": 90,
+    "attaques": [
+      { "nom": "Éclair", "type": "Electrique", "degats": 10, "pa": 1 },
+      { "nom": "Tonnerre", "type": "Electrique", "degats": 15, "pa": 2 },
+      { "nom": "Charge", "type": "Normal", "degats": 5, "pa": 1 },
+      {
+        "nom": "Soin Statique",
+        "type": "Electrique",
+        "degats": 0,
+        "soin": 10,
+        "pa": 2
+      }
+    ]
+  }
+]

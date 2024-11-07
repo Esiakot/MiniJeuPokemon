@@ -1,0 +1,9 @@
+{
+  "Feu": { "faible": ["Eau", "Roche"], "resistant": ["Plante"] },
+  "Roche": { "faible": ["Eau", "Plante"], "resistant": ["Feu", "Vol"] },
+  "Eau": { "faible": ["Plante", "Electrique"], "resistant": ["Feu", "Roche"] },
+  "Plante": { "faible": ["Feu", "Vol"], "resistant": ["Eau", "Roche"] },
+  "Vol": { "faible": ["Electrique", "Roche"], "resistant": ["Plante"] },
+  "Normal": { "faible": [], "resistant": [] },
+  "Electrique": { "faible": ["Roche"], "resistant": ["Eau", "Vol"] }
+}
